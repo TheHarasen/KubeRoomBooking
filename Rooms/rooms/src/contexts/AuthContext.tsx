@@ -1,11 +1,13 @@
 // AuthContext.tsx
 import { createContext, useContext, useState, ReactNode, useEffect } from 'react';
-import { login as loginService, logout as logoutService, refresh as refreshService } from '../services/AuthService';
+import { update as updateService, register as registerService, login as loginService, logout as logoutService, refresh as refreshService, RegisterRequest } from '../services/AuthService';
 
 interface User {
+  id: string;
   email: string;
   firstName: string;
   lastName: string;
+  role: string
 }
 
 interface AuthContextType {
@@ -13,6 +15,8 @@ interface AuthContextType {
   login: (email: string, password: string) => Promise<void>;
   logout: () => Promise<void>;
   refresh: () => Promise<void>;
+  register: (request: RegisterRequest) => Promise<{ message: string, success: boolean }>;
+  update: (request: RegisterRequest) => Promise<{ message: string, success: boolean }>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -27,7 +31,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const login = async (email: string, password: string) => {
     const res = await loginService(email, password);
     if(res != null)
-      setUser({email: res.email, firstName: res.firstName, lastName: res.lastName});
+      setUser({ id: res.id, email: res.email, firstName: res.firstName, lastName: res.lastName, role: res.role});
   };
 
   const logout = async () => {
@@ -38,11 +42,19 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const refresh = async () => {
     const res = await refreshService();
     if(res != null)
-      setUser({email: res.email, firstName: res.firstName, lastName: res.lastName});
+      setUser({ id: res.id, email: res.email, firstName: res.firstName, lastName: res.lastName, role: res.role});
+  }
+
+  const register = async (request: RegisterRequest) => {
+    return await registerService(request);
+  }
+
+  const update = async (request: RegisterRequest) => {
+    return await updateService(request);
   }
 
   return (
-    <AuthContext.Provider value={{ user, login, logout, refresh }}>
+    <AuthContext.Provider value={{ user, login, logout, refresh, register, update }}>
       {children}
     </AuthContext.Provider>
   );

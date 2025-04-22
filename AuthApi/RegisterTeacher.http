@@ -1,0 +1,10 @@
+@host=https://localhost:7084
+POST {{host}}/teachers/register
+Content-Type: application/json
+Authorization: Bearer 
+{
+    "firstName": "Teacher",
+    "lastName": "Test",
+    "email": "TesterTeacher@mail.com",
+    "password": "TeacherPass123"
+}

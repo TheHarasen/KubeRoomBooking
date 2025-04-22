@@ -1,0 +1,144 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "RoomsDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/RoomsDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RoomsDomain.dll": {}
+        }
+      },
+      "SubApplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SubDomain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SubApplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SubApplication.dll": {}
+        }
+      },
+      "SubDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/SubDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SubDomain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RoomsDomain/1.0.0": {
+      "type": "project",
+      "path": "../RoomsDomain/RoomsDomain.csproj",
+      "msbuildProject": "../RoomsDomain/RoomsDomain.csproj"
+    },
+    "SubApplication/1.0.0": {
+      "type": "project",
+      "path": "../SubApplication/SubApplication.csproj",
+      "msbuildProject": "../SubApplication/SubApplication.csproj"
+    },
+    "SubDomain/1.0.0": {
+      "type": "project",
+      "path": "../SubDomain/SubDomain.csproj",
+      "msbuildProject": "../SubDomain/SubDomain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "RoomsDomain >= 1.0.0",
+      "SubApplication >= 1.0.0",
+      "SubDomain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsApplication\\RoomsApplication.csproj",
+      "projectName": "RoomsApplication",
+      "projectPath": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsApplication\\RoomsApplication.csproj",
+      "packagesPath": "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsApplication\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Anders Søndergaard\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsDomain\\RoomsDomain.csproj": {
+              "projectPath": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsDomain\\RoomsDomain.csproj"
+            },
+            "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubApplication\\SubApplication.csproj": {
+              "projectPath": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubApplication\\SubApplication.csproj"
+            },
+            "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubDomain\\SubDomain.csproj": {
+              "projectPath": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubDomain\\SubDomain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

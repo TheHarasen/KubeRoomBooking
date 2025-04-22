@@ -1,0 +1,70 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "RoomsApplication/1.0.0": {
+        "dependencies": {
+          "RoomsDomain": "1.0.0",
+          "SubApplication": "1.0.0",
+          "SubDomain": "1.0.0"
+        },
+        "runtime": {
+          "RoomsApplication.dll": {}
+        }
+      },
+      "RoomsDomain/1.0.0": {
+        "runtime": {
+          "RoomsDomain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SubApplication/1.0.0": {
+        "dependencies": {
+          "SubDomain": "1.0.0"
+        },
+        "runtime": {
+          "SubApplication.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SubDomain/1.0.0": {
+        "runtime": {
+          "SubDomain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RoomsApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RoomsDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SubApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SubDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

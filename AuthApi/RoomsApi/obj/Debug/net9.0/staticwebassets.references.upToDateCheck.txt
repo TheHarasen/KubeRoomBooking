@@ -1,0 +1,4 @@
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\SubApi\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\SubApi\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\SubApi\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\SubApi\obj\Debug\net9.0\staticwebassets.build.json

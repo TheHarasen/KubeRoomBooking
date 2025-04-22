@@ -1,0 +1,12 @@
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\RoomsDomain\bin\Debug\net9.0\RoomsDomain.deps.json
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\RoomsDomain\bin\Debug\net9.0\RoomsDomain.dll
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\RoomsDomain\bin\Debug\net9.0\RoomsDomain.pdb
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\RoomsDomain\obj\Debug\net9.0\RoomsDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\RoomsDomain\obj\Debug\net9.0\RoomsDomain.AssemblyInfoInputs.cache
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\RoomsDomain\obj\Debug\net9.0\RoomsDomain.AssemblyInfo.cs
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\RoomsDomain\obj\Debug\net9.0\RoomsDomain.csproj.CoreCompileInputs.cache
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\RoomsDomain\obj\Debug\net9.0\RoomsDomain.sourcelink.json
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\RoomsDomain\obj\Debug\net9.0\RoomsDomain.dll
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\RoomsDomain\obj\Debug\net9.0\refint\RoomsDomain.dll
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\RoomsDomain\obj\Debug\net9.0\RoomsDomain.pdb
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\RoomsDomain\obj\Debug\net9.0\ref\RoomsDomain.dll

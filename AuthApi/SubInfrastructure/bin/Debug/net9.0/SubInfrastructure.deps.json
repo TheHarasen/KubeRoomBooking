@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "SubInfrastructure/1.0.0": {
+        "dependencies": {
+          "SubApplication": "1.0.0",
+          "SubDomain": "1.0.0"
+        },
+        "runtime": {
+          "SubInfrastructure.dll": {}
+        }
+      },
+      "SubApplication/1.0.0": {
+        "dependencies": {
+          "SubDomain": "1.0.0"
+        },
+        "runtime": {
+          "SubApplication.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SubDomain/1.0.0": {
+        "runtime": {
+          "SubDomain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SubInfrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SubApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SubDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

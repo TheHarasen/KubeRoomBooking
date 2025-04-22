@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RoomsDomain\RoomsDomain.csproj" />
+    <ProjectReference Include="..\SubApplication\SubApplication.csproj" />
+    <ProjectReference Include="..\SubDomain\SubDomain.csproj" />
+  </ItemGroup>
+
+</Project>

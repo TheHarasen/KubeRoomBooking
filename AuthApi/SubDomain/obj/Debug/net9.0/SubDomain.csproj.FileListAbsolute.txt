@@ -1,0 +1,12 @@
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\SubDomain\bin\Debug\net9.0\SubDomain.deps.json
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\SubDomain\bin\Debug\net9.0\SubDomain.dll
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\SubDomain\bin\Debug\net9.0\SubDomain.pdb
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\SubDomain\obj\Debug\net9.0\SubDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\SubDomain\obj\Debug\net9.0\SubDomain.AssemblyInfoInputs.cache
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\SubDomain\obj\Debug\net9.0\SubDomain.AssemblyInfo.cs
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\SubDomain\obj\Debug\net9.0\SubDomain.csproj.CoreCompileInputs.cache
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\SubDomain\obj\Debug\net9.0\SubDomain.sourcelink.json
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\SubDomain\obj\Debug\net9.0\SubDomain.dll
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\SubDomain\obj\Debug\net9.0\refint\SubDomain.dll
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\SubDomain\obj\Debug\net9.0\SubDomain.pdb
+C:\Users\Anders Søndergaard\Desktop\JAVA\JavaHomeWork\S4\React\AuthApi\SubDomain\obj\Debug\net9.0\ref\SubDomain.dll

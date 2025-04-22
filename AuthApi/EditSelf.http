@@ -1,0 +1,12 @@
+@host=https://localhost:7084
+PUT {{host}}/self
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsInN1YiI6ImZhM2RmYTg1LTMzMTYtNGRiZC1iMGE3LTA4ZGQ3YzU0NDM5NCIsImp0aSI6ImVhYjJjNWExLWM1ODktNDQ3OC04ZWYyLWI4ZGViZTQxMTEwNyIsImVtYWlsIjoiQWRtaW5AbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IkFkbWluIEFkbWluIiwiZXhwIjoxNzQ1MjM1NDk5LCJpc3MiOiJSZXN0QXV0aCIsImF1ZCI6IlJlYWN0QXBwIn0.WftQEEFdONbGS3zCHEFJ8XQDZMu7Pcr3IUBy-21TVFg
+{
+    "id": "fa3dfa85-3316-4dbd-b0a7-08dd7c544394",
+    "firstName": "Admin",
+    "lastName": "AdminTest",
+    "email": "Admin@mail.com",
+    "passwordOld": "Admin123",
+    "passwordNew": "Admin123"
+}

@@ -1,0 +1,10 @@
+@host=https://localhost:7084
+PUT {{host}}/teachers
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsInN1YiI6ImZhM2RmYTg1LTMzMTYtNGRiZC1iMGE3LTA4ZGQ3YzU0NDM5NCIsImp0aSI6IjdkNGI3N2VlLTMzYjgtNGUzYi05NTQzLWY0ODcyZWRiY2JiNCIsImVtYWlsIjoiQWRtaW5AbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IkFkbWluIEFkbWluIiwiZXhwIjoxNzQ0OTYxNDM4LCJpc3MiOiJSZXN0QXV0aCIsImF1ZCI6IlJlYWN0QXBwIn0.YGo22nPjffSVBw0ScIdAg9kCE66d59Ru_bzJw7b3_38
+{
+    "firstName": "Tester",
+    "lastName": "Student",
+    "email": "TesterStudent@mail.com",
+    "password": "StudentPass123"
+}

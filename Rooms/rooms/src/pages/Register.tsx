@@ -1,13 +1,11 @@
-import User from "../components/User";
-import { useAuth } from "../contexts/AuthContext";
+import UserConfig from "../components/UserConfig";
+import { register } from "../services/UserService";
 
 const Register = () => {
 
-  const { register } = useAuth(); 
-
   return (
-    <User func={register}>
-    </User>
+    <UserConfig func={register} passwordHtml="repeatPassword" passwordTitle="Repeat the password">
+    </UserConfig>
   );
 }
 

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 
 const Login = () => {
-  const { user, logout, login } = useAuth();
+  const { loggedIn, logout, login } = useAuth();
   const [ email, setMail ] = useState<string>("");
   const [ pass, setPass ] = useState<string>("");
   const [ error, setError ] = useState<string>("");
@@ -23,8 +23,8 @@ const Login = () => {
 
   return (<div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-4">
     <div className="bg-white shadow-lg rounded-lg p-6 w-full sm:w-96">
-      <h1 className="text-2xl font-semibold text-center mb-4">Welcome {user == null ? "" : user.email + " " + user.firstName}</h1>
-      {user !== null && 
+      <h1 className="text-2xl font-semibold text-center mb-4">Welcome {loggedIn == null ? "" : loggedIn.email + " " + loggedIn.firstName}</h1>
+      {loggedIn !== null && 
         <button
           onClick={logout}
           className="w-full py-2 px-4 mb-6 bg-red-500 text-white rounded-md hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500"

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: your-dockerhub/backend:latest
+        image: roombooking/backend:latest
         ports:
         - containerPort: 3000
 ---
@@ -23,9 +23,10 @@ kind: Service
 metadata:
   name: backend-service
 spec:
+  type: NodePort
   selector:
     app: backend
   ports:
   - port: 3000
     targetPort: 3000
-  clusterIP: ClusterIP
+    nodePort: 30001

@@ -3,52 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86379A33-600C-476D-A7A4-FAF4E0A1D6FA}|Rooms{86379A33-600C-476D-A7A4-FAF4E0A1D6FA}|C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\Rooms.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{86379A33-600C-476D-A7A4-FAF4E0A1D6FA}|Rooms{86379A33-600C-476D-A7A4-FAF4E0A1D6FA}|solutionrelative:Rooms.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{DEF53714-1B67-497C-B4E6-11607496AC62}|Student{DEF53714-1B67-497C-B4E6-11607496AC62}|C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\Register.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{DEF53714-1B67-497C-B4E6-11607496AC62}|Student{DEF53714-1B67-497C-B4E6-11607496AC62}|solutionrelative:Register.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86379A33-600C-476D-A7A4-FAF4E0A1D6FA}|Rooms{86379A33-600C-476D-A7A4-FAF4E0A1D6FA}|C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\CreateRoom.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{86379A33-600C-476D-A7A4-FAF4E0A1D6FA}|Rooms{86379A33-600C-476D-A7A4-FAF4E0A1D6FA}|solutionrelative:CreateRoom.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F781F27-F0DC-42E1-98D0-99E4DCCC5C6B}|RoomsApi\\RoomsApi.csproj|c:\\users\\anders s\u00F8ndergaard\\desktop\\java\\javahomework\\s4\\react\\authapi\\roomsapi\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F781F27-F0DC-42E1-98D0-99E4DCCC5C6B}|RoomsApi\\RoomsApi.csproj|solutionrelative:roomsapi\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17FE9D06-4E54-435D-B204-E13B26A8EBB7}|AuthApi\\AuthApi.csproj|c:\\users\\anders s\u00F8ndergaard\\desktop\\java\\javahomework\\s4\\react\\authapi\\authapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{17FE9D06-4E54-435D-B204-E13B26A8EBB7}|AuthApi\\AuthApi.csproj|solutionrelative:authapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F174D46-E89F-4CF3-B24D-E7467E4CCBA1}|Admin{7F174D46-E89F-4CF3-B24D-E7467E4CCBA1}|C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\Admins.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{7F174D46-E89F-4CF3-B24D-E7467E4CCBA1}|Admin{7F174D46-E89F-4CF3-B24D-E7467E4CCBA1}|solutionrelative:Admins.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{DEF53714-1B67-497C-B4E6-11607496AC62}|Student{DEF53714-1B67-497C-B4E6-11607496AC62}|C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\Students.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{DEF53714-1B67-497C-B4E6-11607496AC62}|Student{DEF53714-1B67-497C-B4E6-11607496AC62}|solutionrelative:Students.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{916C0558-B0CB-4E6E-A033-E31E1EF92251}|Account{916C0558-B0CB-4E6E-A033-E31E1EF92251}|C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\Login.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{916C0558-B0CB-4E6E-A033-E31E1EF92251}|Account{916C0558-B0CB-4E6E-A033-E31E1EF92251}|solutionrelative:Login.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F781F27-F0DC-42E1-98D0-99E4DCCC5C6B}|RoomsApi\\RoomsApi.csproj|c:\\users\\anders s\u00F8ndergaard\\desktop\\java\\javahomework\\s4\\react\\authapi\\roomsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0F781F27-F0DC-42E1-98D0-99E4DCCC5C6B}|RoomsApi\\RoomsApi.csproj|solutionrelative:roomsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17FE9D06-4E54-435D-B204-E13B26A8EBB7}|AuthApi\\AuthApi.csproj|c:\\users\\anders s\u00F8ndergaard\\desktop\\java\\javahomework\\s4\\react\\authapi\\authapi\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17FE9D06-4E54-435D-B204-E13B26A8EBB7}|AuthApi\\AuthApi.csproj|solutionrelative:authapi\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17FE9D06-4E54-435D-B204-E13B26A8EBB7}|AuthApi\\AuthApi.csproj|c:\\users\\anders s\u00F8ndergaard\\desktop\\java\\javahomework\\s4\\react\\authapi\\authapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{17FE9D06-4E54-435D-B204-E13B26A8EBB7}|AuthApi\\AuthApi.csproj|solutionrelative:authapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F781F27-F0DC-42E1-98D0-99E4DCCC5C6B}|RoomsApi\\RoomsApi.csproj|c:\\users\\anders s\u00F8ndergaard\\desktop\\java\\javahomework\\s4\\react\\authapi\\roomsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F781F27-F0DC-42E1-98D0-99E4DCCC5C6B}|RoomsApi\\RoomsApi.csproj|solutionrelative:roomsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B98D2FC1-B379-475E-9CB5-82321D95A769}|RoomsInfrastructure\\RoomsInfrastructure.csproj|c:\\users\\anders s\u00F8ndergaard\\desktop\\java\\javahomework\\s4\\react\\authapi\\roomsinfrastructure\\ef\\roomsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B98D2FC1-B379-475E-9CB5-82321D95A769}|RoomsInfrastructure\\RoomsInfrastructure.csproj|solutionrelative:roomsinfrastructure\\ef\\roomsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05BE8BA1-5330-41E1-92A4-C838F023138E}|RoomsApplication\\RoomsApplication.csproj|c:\\users\\anders s\u00F8ndergaard\\desktop\\java\\javahomework\\s4\\react\\authapi\\roomsapplication\\rooms\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05BE8BA1-5330-41E1-92A4-C838F023138E}|RoomsApplication\\RoomsApplication.csproj|solutionrelative:roomsapplication\\rooms\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17FE9D06-4E54-435D-B204-E13B26A8EBB7}|AuthApi\\AuthApi.csproj|c:\\users\\anders s\u00F8ndergaard\\desktop\\java\\javahomework\\s4\\react\\authapi\\authapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FE9D06-4E54-435D-B204-E13B26A8EBB7}|AuthApi\\AuthApi.csproj|solutionrelative:authapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,8 +29,51 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\AuthApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\AuthApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T11:44:04.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.http",
+              "DocumentMoniker": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\Register.http",
+              "RelativeDocumentMoniker": "Register.http",
+              "ToolTip": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\Register.http",
+              "RelativeToolTip": "Register.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-04-22T11:43:16.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Students.http",
+              "DocumentMoniker": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\Students.http",
+              "RelativeDocumentMoniker": "Students.http",
+              "ToolTip": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\Students.http",
+              "RelativeToolTip": "Students.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-04-22T11:42:34.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Login.http",
               "DocumentMoniker": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\Login.http",
               "RelativeDocumentMoniker": "Login.http",
@@ -70,145 +81,8 @@
               "RelativeToolTip": "Login.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-21T20:10:03.081Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Rooms.http",
-              "DocumentMoniker": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\Rooms.http",
-              "RelativeDocumentMoniker": "Rooms.http",
-              "ToolTip": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\Rooms.http",
-              "RelativeToolTip": "Rooms.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-21T20:23:04.274Z",
+              "WhenOpened": "2025-04-22T11:42:21.896Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateRoom.http",
-              "DocumentMoniker": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\CreateRoom.http",
-              "RelativeDocumentMoniker": "CreateRoom.http",
-              "ToolTip": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\CreateRoom.http",
-              "RelativeToolTip": "CreateRoom.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-21T20:08:04.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Admins.http",
-              "DocumentMoniker": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\Admins.http",
-              "RelativeDocumentMoniker": "Admins.http",
-              "ToolTip": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\Admins.http",
-              "RelativeToolTip": "Admins.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-21T20:10:36.241Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\AuthApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "AuthApi\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\AuthApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "AuthApi\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-21T20:06:32.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\AuthApi\\appsettings.json",
-              "RelativeDocumentMoniker": "AuthApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\AuthApi\\appsettings.json",
-              "RelativeToolTip": "AuthApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-21T20:05:39.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsApi\\appsettings.json",
-              "RelativeDocumentMoniker": "RoomsApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsApi\\appsettings.json",
-              "RelativeToolTip": "RoomsApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-21T20:05:38.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\AuthApi\\SeedData.cs",
-              "RelativeDocumentMoniker": "AuthApi\\SeedData.cs",
-              "ToolTip": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\AuthApi\\SeedData.cs",
-              "RelativeToolTip": "AuthApi\\SeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T20:04:07.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsApi\\Program.cs",
-              "RelativeDocumentMoniker": "RoomsApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsApi\\Program.cs",
-              "RelativeToolTip": "RoomsApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T19:59:28.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IRoomRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsApplication\\Rooms\\IRoomRepository.cs",
-              "RelativeDocumentMoniker": "RoomsApplication\\Rooms\\IRoomRepository.cs",
-              "ToolTip": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsApplication\\Rooms\\IRoomRepository.cs",
-              "RelativeToolTip": "RoomsApplication\\Rooms\\IRoomRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T19:29:29.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RoomsDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsInfrastructure\\EF\\RoomsDbContext.cs",
-              "RelativeDocumentMoniker": "RoomsInfrastructure\\EF\\RoomsDbContext.cs",
-              "ToolTip": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsInfrastructure\\EF\\RoomsDbContext.cs",
-              "RelativeToolTip": "RoomsInfrastructure\\EF\\RoomsDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T18:38:11.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RoomsController.cs",
-              "DocumentMoniker": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsApi\\Controllers\\RoomsController.cs",
-              "RelativeDocumentMoniker": "RoomsApi\\Controllers\\RoomsController.cs",
-              "ToolTip": "C:\\Users\\Anders S\u00F8ndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsApi\\Controllers\\RoomsController.cs",
-              "RelativeToolTip": "RoomsApi\\Controllers\\RoomsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T18:38:03.992Z"
             }
           ]
         },

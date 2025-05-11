@@ -1,7 +1,5 @@
-import { useState } from "react";
-
 const Footer = () => {
-  const [value, setValue] = useState(0);
+  //const [value, setValue] = useState(0);
   return (
     <footer className="bg-gray-800 text-white py-6">
       <div className="container mx-auto text-center">

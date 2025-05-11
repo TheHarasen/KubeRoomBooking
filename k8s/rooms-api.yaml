@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rooms-api-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rooms-api
+  template:
+    metadata:
+      labels:
+        app: rooms-api
+    spec:
+      containers:
+      - name: rooms-api
+        image: rooms-api-image
+        env:
+        - name: ConnectionStrings__RoomsConnection
+          value: "Server=mssql;Database=RoomsDb;User Id=sa;Password=Your_password123;MultipleActiveResultSets=true"
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rooms-api
+spec:
+  selector:
+    app: rooms-api
+  ports:
+    - port: 80

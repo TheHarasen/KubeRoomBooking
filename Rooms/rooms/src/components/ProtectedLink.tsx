@@ -10,9 +10,9 @@ interface ProtectedLinkProps {
 }
 
 const ProtectedLink = ({ to, children, allowedRoles, className = "" }: ProtectedLinkProps) => {
-  const { user } = useAuth();
+  const { loggedIn } = useAuth();
 
-  if (!user || (allowedRoles && !allowedRoles.includes(user.role)))
+  if (!loggedIn || (allowedRoles && !allowedRoles.includes(loggedIn.role)))
     return <></>
   else
     return (

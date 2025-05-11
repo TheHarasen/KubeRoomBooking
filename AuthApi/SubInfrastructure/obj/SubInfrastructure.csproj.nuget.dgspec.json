@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj": {}
+    "B:\\Git\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubApplication\\SubApplication.csproj": {
+    "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubApplication\\SubApplication.csproj",
+        "projectUniqueName": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj",
         "projectName": "SubApplication",
-        "projectPath": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubApplication\\SubApplication.csproj",
+        "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj",
         "packagesPath": "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubApplication\\obj\\",
+        "outputPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubDomain\\SubDomain.csproj": {
-                "projectPath": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubDomain\\SubDomain.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubDomain\\SubDomain.csproj": {
+    "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubDomain\\SubDomain.csproj",
+        "projectUniqueName": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj",
         "projectName": "SubDomain",
-        "projectPath": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubDomain\\SubDomain.csproj",
+        "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj",
         "packagesPath": "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubDomain\\obj\\",
+        "outputPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -140,14 +140,14 @@
         }
       }
     },
-    "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj": {
+    "B:\\Git\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj",
+        "projectUniqueName": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj",
         "projectName": "SubInfrastructure",
-        "projectPath": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj",
+        "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj",
         "packagesPath": "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubInfrastructure\\obj\\",
+        "outputPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -169,11 +169,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubApplication\\SubApplication.csproj": {
-                "projectPath": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubApplication\\SubApplication.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj"
               },
-              "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubDomain\\SubDomain.csproj": {
-                "projectPath": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\SubDomain\\SubDomain.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj"
               }
             }
           }

@@ -21,7 +21,7 @@ const UserConfig = ({ func, passwordHtml, passwordTitle, user}: UserProps) => {
   const [ role, setRole ] = useState<string>(user?.role || "student");
 
   const handle = async () => {
-    let result = await func({ email, firstName, lastName, password, passwordRepeat, role });
+    let result = await func({  email, firstName, lastName, password, passwordRepeat, role });
     console.log(result);
   }
   return (

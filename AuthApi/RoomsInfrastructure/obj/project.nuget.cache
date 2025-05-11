@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j2hdKbuy6l4=",
+  "dgSpecHash": "DV1RRBCUQTo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsInfrastructure\\RoomsInfrastructure.csproj",
+  "projectFilePath": "B:\\Git\\KubeRoomBooking\\AuthApi\\RoomsInfrastructure\\RoomsInfrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

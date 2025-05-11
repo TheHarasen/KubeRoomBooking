@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N6UNInKlaG8=",
+  "dgSpecHash": "romMyakwBTE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anders Søndergaard\\Desktop\\JAVA\\JavaHomeWork\\S4\\React\\AuthApi\\RoomsApi\\RoomsApi.csproj",
+  "projectFilePath": "B:\\Git\\KubeRoomBooking\\AuthApi\\RoomsApi\\RoomsApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -51,6 +51,7 @@
     "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.0.1\\microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
     "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\microsoft.jsinterop\\9.0.2\\microsoft.jsinterop.9.0.2.nupkg.sha512",
     "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512",
     "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
     "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",

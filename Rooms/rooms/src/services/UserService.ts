@@ -1,7 +1,7 @@
 import { makeApi } from "../api/Api";
 
 export interface RegisterRequest {
-  id: string;
+  id?: string;
   email: string;
   firstName: string;
   lastName: string;

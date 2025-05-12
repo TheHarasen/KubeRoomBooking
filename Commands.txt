@@ -9,6 +9,10 @@ docker build -t auth-api-image -f AuthApi/AuthApi/Dockerfile AuthApi
 
 docker build -t rooms-image -f Rooms/rooms/Dockerfile Rooms/rooms
 
+kubectl apply -f ./k8s/mssql.yaml
+
+vent indtil poden kører da de skal bruge sqlen
+
 kubectl apply -f ./k8s/
 
 kubectl port-forward service/rooms 3000:80

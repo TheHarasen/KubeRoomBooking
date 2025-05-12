@@ -25,7 +25,7 @@ spec:
       volumes:
       - name: config-volume
         configMap:
-          name: rooms-config
+          name: react-config
 
 ---
 apiVersion: v1

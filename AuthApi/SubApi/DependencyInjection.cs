@@ -17,7 +17,7 @@ public static class DependencyInjection
 			policy
 			.AllowAnyHeader()
 			.AllowAnyMethod()
-			.WithOrigins("http://localhost:5173")
+			.WithOrigins("*")
 			.AllowCredentials();
 		}));
 

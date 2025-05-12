@@ -12,9 +12,6 @@ public static class DependencyInjection
 {
 	public static void SetupBuilder(this WebApplicationBuilder builder)
 	{
-		builder.Services.Configure<CorsOptions>(
-			builder.Configuration.GetSection(CorsOptions.CorsOptionsKey));
-
 		builder.Services.AddCors(options =>
 		{
 			var corsConfig = builder.Configuration

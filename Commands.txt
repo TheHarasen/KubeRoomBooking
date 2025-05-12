@@ -1,0 +1,16 @@
+
+Minikube Start
+
+& minikube -p minikube docker-env | Invoke-Expression
+
+docker build -t rooms-api-image -f AuthApi/RoomsApi/Dockerfile AuthApi
+
+docker build -t auth-api-image -f AuthApi/AuthApi/Dockerfile AuthApi
+
+docker build -t rooms-image -f Rooms/rooms/Dockerfile Rooms/rooms
+
+kubectl apply -f ./k8s/
+
+kubectl port-forward service/rooms 3000:80
+
+kubectl port-forward service/auth-api 8080:8080

@@ -8,23 +8,23 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ander\\.nuget\\packages\\": {},
+    "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\RoomsDomain\\RoomsDomain.csproj",
+      "projectUniqueName": "B:\\Git\\KubeRoomBooking\\AuthApi\\RoomsDomain\\RoomsDomain.csproj",
       "projectName": "RoomsDomain",
-      "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\RoomsDomain\\RoomsDomain.csproj",
-      "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\RoomsDomain\\obj\\",
+      "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\RoomsDomain\\RoomsDomain.csproj",
+      "packagesPath": "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\",
+      "outputPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\RoomsDomain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Anders Søndergaard\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

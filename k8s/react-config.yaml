@@ -5,5 +5,5 @@ metadata:
 data:
   config.json: |
     {
-      "AUTHURL": "8080"
+      "AUTHURL": "https://localhost:8080/"
     }

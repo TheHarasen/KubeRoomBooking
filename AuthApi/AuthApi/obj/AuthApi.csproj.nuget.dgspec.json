@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthApi\\AuthApi.csproj": {}
+    "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthApi\\AuthApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthApi\\AuthApi.csproj": {
+    "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthApi\\AuthApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthApi\\AuthApi.csproj",
+        "projectUniqueName": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthApi\\AuthApi.csproj",
         "projectName": "AuthApi",
-        "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthApi\\AuthApi.csproj",
-        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthApi\\obj\\",
+        "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthApi\\AuthApi.csproj",
+        "packagesPath": "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\",
+        "outputPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anders Søndergaard\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,17 +33,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthApplication\\AuthApplication.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthApplication\\AuthApplication.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthApplication\\AuthApplication.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthApplication\\AuthApplication.csproj"
               },
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj"
               },
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthInfrastructure\\AuthInfrastructure.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthInfrastructure\\AuthInfrastructure.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthInfrastructure\\AuthInfrastructure.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthInfrastructure\\AuthInfrastructure.csproj"
               },
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubApi\\SubApi.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubApi\\SubApi.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApi\\SubApi.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApi\\SubApi.csproj"
               }
             }
           }
@@ -114,20 +114,20 @@
         }
       }
     },
-    "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthApplication\\AuthApplication.csproj": {
+    "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthApplication\\AuthApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthApplication\\AuthApplication.csproj",
+        "projectUniqueName": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthApplication\\AuthApplication.csproj",
         "projectName": "AuthApplication",
-        "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthApplication\\AuthApplication.csproj",
-        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthApplication\\obj\\",
+        "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthApplication\\AuthApplication.csproj",
+        "packagesPath": "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\",
+        "outputPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anders Søndergaard\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -143,14 +143,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj"
               },
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj"
               },
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj"
               }
             }
           }
@@ -190,20 +190,20 @@
         }
       }
     },
-    "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj": {
+    "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj",
+        "projectUniqueName": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj",
         "projectName": "AuthDomain",
-        "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj",
-        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthDomain\\obj\\",
+        "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj",
+        "packagesPath": "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\",
+        "outputPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anders Søndergaard\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -262,20 +262,20 @@
         }
       }
     },
-    "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthInfrastructure\\AuthInfrastructure.csproj": {
+    "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthInfrastructure\\AuthInfrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthInfrastructure\\AuthInfrastructure.csproj",
+        "projectUniqueName": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthInfrastructure\\AuthInfrastructure.csproj",
         "projectName": "AuthInfrastructure",
-        "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthInfrastructure\\AuthInfrastructure.csproj",
-        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthInfrastructure\\obj\\",
+        "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthInfrastructure\\AuthInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\",
+        "outputPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthInfrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anders Søndergaard\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -291,17 +291,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthApplication\\AuthApplication.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthApplication\\AuthApplication.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthApplication\\AuthApplication.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthApplication\\AuthApplication.csproj"
               },
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthDomain\\AuthDomain.csproj"
               },
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj"
               },
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj"
               }
             }
           }
@@ -367,20 +367,20 @@
         }
       }
     },
-    "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubApi\\SubApi.csproj": {
+    "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApi\\SubApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubApi\\SubApi.csproj",
+        "projectUniqueName": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApi\\SubApi.csproj",
         "projectName": "SubApi",
-        "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubApi\\SubApi.csproj",
-        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubApi\\obj\\",
+        "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApi\\SubApi.csproj",
+        "packagesPath": "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\",
+        "outputPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anders Søndergaard\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -396,14 +396,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj"
               },
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj"
               },
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj"
               }
             }
           }
@@ -453,20 +453,20 @@
         }
       }
     },
-    "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj": {
+    "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj",
+        "projectUniqueName": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj",
         "projectName": "SubApplication",
-        "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj",
-        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubApplication\\obj\\",
+        "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj",
+        "packagesPath": "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\",
+        "outputPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anders Søndergaard\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -482,8 +482,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj"
               }
             }
           }
@@ -523,20 +523,20 @@
         }
       }
     },
-    "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj": {
+    "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj",
+        "projectUniqueName": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj",
         "projectName": "SubDomain",
-        "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj",
-        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubDomain\\obj\\",
+        "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj",
+        "packagesPath": "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\",
+        "outputPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anders Søndergaard\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -589,20 +589,20 @@
         }
       }
     },
-    "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj": {
+    "B:\\Git\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj",
+        "projectUniqueName": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj",
         "projectName": "SubInfrastructure",
-        "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj",
-        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\obj\\",
+        "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\SubInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\Anders Søndergaard\\.nuget\\packages\\",
+        "outputPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubInfrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anders Søndergaard\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -618,11 +618,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubApplication\\SubApplication.csproj"
               },
-              "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj": {
-                "projectPath": "C:\\Users\\ander\\Documents\\GitHub\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj"
+              "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj": {
+                "projectPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\SubDomain\\SubDomain.csproj"
               }
             }
           }

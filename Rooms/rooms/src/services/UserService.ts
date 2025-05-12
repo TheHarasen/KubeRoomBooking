@@ -1,4 +1,5 @@
 import { makeApi } from "../api/Api";
+import { getConfig } from "../config";
 
 export interface RegisterRequest {
   id?: string;
@@ -10,11 +11,16 @@ export interface RegisterRequest {
   role: string;
 }
 
+const getApi = () => {
+  const { AUTHURL } = getConfig();
+  return makeApi(AUTHURL);
+};
+
 export const register = async (request: RegisterRequest): Promise<{ message: string, success: boolean }> => {
   if (request.password != request.passwordRepeat)
     return { message: "Not the same password", success: false };
 
-  const api = makeApi(import.meta.env.VITE_AUTHURL);
+  const api = getApi();
   if(request.role == "student")
     await api.post("students", {  email: request.email,
       firstName: request.firstName,
@@ -30,7 +36,7 @@ export const register = async (request: RegisterRequest): Promise<{ message: str
 };
 
 export const updateSelf = async (request: RegisterRequest): Promise<{ message: string, success: boolean}> => {
-  const api = makeApi(import.meta.env.VITE_AUTHURL);
+  const api = getApi();
   if(request.role == "student")
     await api.put("students", {
       id: request.id,

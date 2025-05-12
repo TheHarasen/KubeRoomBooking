@@ -15,9 +15,10 @@ spec:
       containers:
       - name: auth-api
         image: auth-api-image
+        imagePullPolicy: IfNotPresent
         env:
         - name: ConnectionStrings__IdentityConnection
-          value: "Server=mssql;Database=AuthReact;User Id=sa;Password=Your_password123;MultipleActiveResultSets=true"
+          value: "Server=mssql;Database=AuthReact;User Id=sa;Password=Your_password123;TrustServerCertificate=True;MultipleActiveResultSets=true"
         ports:
         - containerPort: 8080
 ---

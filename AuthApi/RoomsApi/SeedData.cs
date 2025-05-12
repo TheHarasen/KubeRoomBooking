@@ -10,9 +10,16 @@ public static class SeedData
 		using var scope = services.BuildServiceProvider().CreateScope();
 		var context = scope.ServiceProvider.GetRequiredService<RoomsDbContext>();
 
-		if (context.Database.GetPendingMigrations().Any())
+		try
 		{
-			context.Database.Migrate();
+			if (context.Database.GetPendingMigrations().Any())
+			{
+				context.Database.Migrate();
+			}
+		}
+		catch (Exception ex)
+		{
+			Console.WriteLine($"Seeding error: {ex.Message}");
 		}
 	}
 }

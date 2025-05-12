@@ -17,7 +17,7 @@ namespace AuthApi;
 
 public class Program
 {
-	public static void Main(string[] args)
+	public async static void Main(string[] args)
 	{
 		var builder = WebApplication.CreateBuilder(args);
 		{
@@ -38,7 +38,7 @@ public class Program
 
 			builder.Services.AddDbContext<ApplicationDbContext>(opt =>
 			{
-				opt.UseSqlServer(builder.Configuration["ConnectionStrings:IdentityConnection"]);
+				opt.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
 			});
 
 			builder.Services.AddScoped<IAuthTokenProcessor, AuthTokenProcessor>();
@@ -53,7 +53,7 @@ public class Program
 			builder.SetupBuilder();
 
 			//remove if adding new migration
-			builder.Services.SeedAuth();
+			await builder.Services.SeedAuth();
 			builder.Services.AddControllers();
 		}
 

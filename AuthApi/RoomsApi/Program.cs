@@ -14,7 +14,7 @@ namespace RoomsApi
 			{
 				builder.Services.AddDbContext<RoomsDbContext>(opt =>
 				{
-					opt.UseSqlServer(builder.Configuration["ConnectionStrings:RoomsConnection"]);
+					opt.UseSqlServer(builder.Configuration.GetConnectionString("RoomsConnection"));
 				});
 				builder.Services.AddAuthorization();
 				builder.SetupBuilder();

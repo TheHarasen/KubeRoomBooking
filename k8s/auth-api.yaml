@@ -17,6 +17,8 @@ spec:
         image: auth-api-image
         imagePullPolicy: IfNotPresent
         env:
+        - name: CorsOptions__AllowedOrigins__0
+          value: "http://localhost3000"
         - name: ConnectionStrings__IdentityConnection
           value: "Server=mssql;Database=AuthReact;User Id=sa;Password=Your_password123;TrustServerCertificate=True;MultipleActiveResultSets=true"
         ports:

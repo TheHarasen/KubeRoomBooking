@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "B:\\Git\\KubeRoomBooking\\AuthApi\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{0F781F27-F0DC-42E1-98D0-99E4DCCC5C6B}|RoomsApi\\RoomsApi.csproj|b:\\git\\kuberoombooking\\authapi\\roomsapi\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F781F27-F0DC-42E1-98D0-99E4DCCC5C6B}|RoomsApi\\RoomsApi.csproj|solutionrelative:roomsapi\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F781F27-F0DC-42E1-98D0-99E4DCCC5C6B}|RoomsApi\\RoomsApi.csproj|b:\\git\\kuberoombooking\\authapi\\roomsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F781F27-F0DC-42E1-98D0-99E4DCCC5C6B}|RoomsApi\\RoomsApi.csproj|solutionrelative:roomsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17FE9D06-4E54-435D-B204-E13B26A8EBB7}|AuthApi\\AuthApi.csproj|b:\\git\\kuberoombooking\\authapi\\authapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17FE9D06-4E54-435D-B204-E13B26A8EBB7}|AuthApi\\AuthApi.csproj|solutionrelative:authapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,56 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 757,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthApi\\Program.cs",
-              "RelativeDocumentMoniker": "AuthApi\\Program.cs",
-              "ToolTip": "B:\\Git\\KubeRoomBooking\\AuthApi\\AuthApi\\Program.cs",
-              "RelativeToolTip": "AuthApi\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:19:04.36Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 757,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "B:\\Git\\KubeRoomBooking\\AuthApi\\RoomsApi\\SeedData.cs",
-              "RelativeDocumentMoniker": "RoomsApi\\SeedData.cs",
-              "ToolTip": "B:\\Git\\KubeRoomBooking\\AuthApi\\RoomsApi\\SeedData.cs",
-              "RelativeToolTip": "RoomsApi\\SeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:21:58.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "B:\\Git\\KubeRoomBooking\\AuthApi\\RoomsApi\\Program.cs",
-              "RelativeDocumentMoniker": "RoomsApi\\Program.cs",
-              "ToolTip": "B:\\Git\\KubeRoomBooking\\AuthApi\\RoomsApi\\Program.cs",
-              "RelativeToolTip": "RoomsApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:19:01.019Z",
-              "EditorCaption": ""
             }
           ]
         },

@@ -12,14 +12,24 @@ public static class DependencyInjection
 {
 	public static void SetupBuilder(this WebApplicationBuilder builder)
 	{
-		builder.Services.AddCors(options => options.AddPolicy("localreactpolicy", policy =>
+		builder.Services.Configure<CorsOptions>(
+			builder.Configuration.GetSection(CorsOptions.CorsOptionsKey));
+
+		builder.Services.AddCors(options =>
 		{
-			policy
-			.AllowAnyHeader()
-			.AllowAnyMethod()
-			.WithOrigins("*")
-			.AllowCredentials();
-		}));
+			var corsConfig = builder.Configuration
+				.GetSection(CorsOptions.CorsOptionsKey)
+				.Get<CorsOptions>();
+
+			options.AddPolicy("localreactpolicy", policy =>
+			{
+				policy
+					.AllowAnyHeader()
+					.AllowAnyMethod()
+					.WithOrigins(corsConfig?.AllowedOrigins ?? [])
+					.AllowCredentials();
+			});
+		});
 
 		builder.Services.Configure<JwtOptions>(
 			builder.Configuration.GetSection(JwtOptions.JwtOptionsKey));

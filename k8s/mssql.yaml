@@ -1,4 +1,16 @@
 apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: mssql-pv
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: /data/mssql
+---
+apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: mssql-pvc
@@ -8,6 +20,7 @@ spec:
   resources:
     requests:
       storage: 1Gi
+  volumeName: mssql-pv
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -50,3 +63,4 @@ spec:
     app: mssql
   ports:
     - port: 1433
+      targetPort: 1433

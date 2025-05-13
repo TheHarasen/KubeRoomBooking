@@ -12,6 +12,10 @@ spec:
       labels:
         app: rooms-api
     spec:
+      initContainers:
+        - name: wait-for-mssql
+          image: busybox
+          command: ['sh', '-c', 'until nc -z mssql 1433; do echo waiting for mssql; sleep 5; done;']
       containers:
       - name: rooms-api
         image: rooms-api-image

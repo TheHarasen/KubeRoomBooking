@@ -12,6 +12,10 @@ spec:
       labels:
         app: auth-api
     spec:
+      initContainers:
+        - name: wait-for-mssql
+          image: busybox
+          command: ['sh', '-c', 'until nc -z mssql 1433; do echo waiting for mssql; sleep 5; done;']
       containers:
       - name: auth-api
         image: auth-api-image
@@ -19,8 +23,6 @@ spec:
         env:
         - name: CorsOptions__AllowedOrigins__0
           value: "http://localhost:3000"
-        - name: CorsOptions__AllowedOrigins__1
-          value: "http://192.168.49.2:30001"
         - name: ConnectionStrings__IdentityConnection
           value: "Server=mssql;Database=AuthReact;User Id=sa;Password=Your_password123;TrustServerCertificate=True;MultipleActiveResultSets=true"
         ports:

@@ -9,9 +9,11 @@ docker build -t auth-api-image -f AuthApi/AuthApi/Dockerfile AuthApi
 
 docker build -t rooms-image -f Rooms/rooms/Dockerfile Rooms/rooms
 
-kubectl apply -f ./k8s/mssql.yaml
+minikube ssh
 
-vent indtil poden kører da de skal bruge sqlen
+sudo mkdir -p /data/mssql
+
+sudo chown -R 10001:0 /data/mssql
 
 kubectl apply -f ./k8s/
 

@@ -41,6 +41,7 @@ jobs:
           docker build -t rooms-api-image -f AuthApi/RoomsApi/Dockerfile AuthApi/RoomsApi
           docker build -t auth-api-image -f AuthApi/AuthApi/Dockerfile AuthApi
           docker build -t rooms-image -f Rooms/rooms/Dockerfile Rooms/rooms
+        working-directory: ./
 
       # Step 7: Deploy to Minikube
       - name: Deploy backend API and frontend to Minikube

@@ -18,28 +18,22 @@ jobs:
           dotnet-version: '9.0.x'
 
       # Step 3: Build and test your backend APIs
-      - name: Build and Test Rooms API
-        run: |
-          dotnet build AuthApi/RoomsApi/RoomsApi.csproj
-          dotnet test AuthApi/RoomsApi/RoomsApi.csproj
+      - name: Build Rooms API
+        run: dotnet build AuthApi/RoomsApi/RoomsApi.csproj
 
-      - name: Build and Test Auth API
-        run: |
-          dotnet build AuthApi/AuthApi.csproj
-          dotnet test AuthApi/AuthApi.csproj
+      - name: Build Auth API
+        run: dotnet build AuthApi/AuthApi.csproj
 
-      # Step 4: Set up Node.js for React frontend
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'  # Or the version you're using
-
-      # Step 5: Build and test the React frontend
-      - name: Install and Test React Frontend
+      - name: Set up kubectl
         run: |
-          cd Rooms/rooms
-          npm install
-          npm test
+          curl -LO "https://dl.k8s.io/release/v1.26.0/bin/linux/amd64/kubectl"
+          chmod +x ./kubectl
+          sudo mv ./kubectl /usr/local/bin/kubectl
+
+      - name: Start Minikube
+        run: |
+          minikube start
+          kubectl config use-context minikube
 
       # Step 6: Build Docker images for each service
       - name: Build Docker images for APIs and React

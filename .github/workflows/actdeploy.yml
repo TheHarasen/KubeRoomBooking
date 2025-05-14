@@ -1,0 +1,61 @@
+name: Build and Deploy to Minikube
+
+on: [push]
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository code
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up .NET SDK for building and testing APIs
+      - name: Set up .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      # Step 3: Build and test your backend APIs
+      - name: Build and Test Rooms API
+        run: |
+          dotnet build AuthApi/RoomsApi/RoomsApi.csproj
+          dotnet test AuthApi/RoomsApi/RoomsApi.csproj
+
+      - name: Build and Test Auth API
+        run: |
+          dotnet build AuthApi/AuthApi.csproj
+          dotnet test AuthApi/AuthApi.csproj
+
+      # Step 4: Set up Node.js for React frontend
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'  # Or the version you're using
+
+      # Step 5: Build and test the React frontend
+      - name: Install and Test React Frontend
+        run: |
+          cd Rooms/rooms
+          npm install
+          npm test
+
+      # Step 6: Build Docker images for each service
+      - name: Build Docker images for APIs and React
+        run: |
+          docker build -t rooms-api-image -f AuthApi/RoomsApi/Dockerfile AuthApi/RoomsApi
+          docker build -t auth-api-image -f AuthApi/AuthApi/Dockerfile AuthApi
+          docker build -t rooms-image -f Rooms/rooms/Dockerfile Rooms/rooms
+
+      # Step 7: Deploy to Minikube
+      - name: Deploy backend API and frontend to Minikube
+        run: |
+          kubectl apply -f ./k8s/
+
+      # Step 8: Port-forward the services (this is simulated in GitHub Actions with a delay)
+      - name: Port-forward rooms API
+        run: kubectl port-forward service/rooms 3000:80 &
+
+      - name: Port-forward auth API
+        run: kubectl port-forward service/auth-api 8080:8080 &

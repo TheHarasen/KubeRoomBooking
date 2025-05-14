@@ -6,7 +6,16 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
 
+
+
     steps:
+      - name: Debug file tree
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "List everything:"
+          ls -R
+          
       # Step 1: Checkout the repository code
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -41,7 +50,7 @@ jobs:
           docker build -t rooms-api-image -f AuthApi/RoomsApi/Dockerfile AuthApi/RoomsApi
           docker build -t auth-api-image -f AuthApi/AuthApi/Dockerfile AuthApi
           docker build -t rooms-image -f Rooms/rooms/Dockerfile Rooms/rooms
-        working-directory: ./
+        working-directory: KubeRoomBooking
 
       # Step 7: Deploy to Minikube
       - name: Deploy backend API and frontend to Minikube

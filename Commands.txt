@@ -1,19 +1,17 @@
 
-Minikube Start
+minikube start
 
 & minikube -p minikube docker-env | Invoke-Expression
 
-docker build -t rooms-api-image -f AuthApi/RoomsApi/Dockerfile AuthApi
-
-docker build -t auth-api-image -f AuthApi/AuthApi/Dockerfile AuthApi
-
-docker build -t rooms-image -f Rooms/rooms/Dockerfile Rooms/rooms
+act push
 
 minikube ssh
 
 sudo mkdir -p /data/mssql
 
 sudo chown -R 10001:0 /data/mssql
+
+CTRL-D
 
 kubectl apply -f ./k8s/
 

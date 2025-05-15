@@ -6,60 +6,23 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
 
-
-
     steps:
-      - name: Debug file tree
-        run: |
-          echo "Current directory:"
-          pwd
-          echo "List everything:"
-          ls -R
-          
-      # Step 1: Checkout the repository code
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Set up .NET SDK for building and testing APIs
       - name: Set up .NET SDK
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '9.0.x'
 
-      # Step 3: Build and test your backend APIs
       - name: Build Rooms API
         run: dotnet build AuthApi/RoomsApi/RoomsApi.csproj
 
       - name: Build Auth API
-        run: dotnet build AuthApi/AuthApi.csproj
+        run: dotnet build AuthApi/AuthApi/AuthApi.csproj
 
-      - name: Set up kubectl
-        run: |
-          curl -LO "https://dl.k8s.io/release/v1.26.0/bin/linux/amd64/kubectl"
-          chmod +x ./kubectl
-          sudo mv ./kubectl /usr/local/bin/kubectl
-
-      - name: Start Minikube
-        run: |
-          minikube start
-          kubectl config use-context minikube
-
-      # Step 6: Build Docker images for each service
       - name: Build Docker images for APIs and React
         run: |
-          docker build -t rooms-api-image -f AuthApi/RoomsApi/Dockerfile AuthApi/RoomsApi
+          docker build -t rooms-api-image -f AuthApi/RoomsApi/Dockerfile AuthApi
           docker build -t auth-api-image -f AuthApi/AuthApi/Dockerfile AuthApi
           docker build -t rooms-image -f Rooms/rooms/Dockerfile Rooms/rooms
-        working-directory: KubeRoomBooking
-
-      # Step 7: Deploy to Minikube
-      - name: Deploy backend API and frontend to Minikube
-        run: |
-          kubectl apply -f ./k8s/
-
-      # Step 8: Port-forward the services (this is simulated in GitHub Actions with a delay)
-      - name: Port-forward rooms API
-        run: kubectl port-forward service/rooms 3000:80 &
-
-      - name: Port-forward auth API
-        run: kubectl port-forward service/auth-api 8080:8080 &
